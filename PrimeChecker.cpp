@@ -36,7 +36,7 @@ unsigned long PRIMECHECKER::PrimeChecker(unsigned long a, unsigned long b){
 	}
 		
 
-	for(int count = a; count <= b; count = count + 2){
+	for(long count = a; count <= b; count = count + 2){
 			
 		if (prime_list.empty()){
 			
