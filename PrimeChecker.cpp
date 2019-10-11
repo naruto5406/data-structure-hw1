@@ -74,20 +74,31 @@ unsigned long PRIMECHECKER::PrimeChecker(unsigned long a, unsigned long b){
 	}
 
 	return prime_list.size(); 
+		
+	
+	
 
 }
 
 int check_prime(unsigned long num){
 	int flag = 1;
 	
-	for(long i = 3; i <= sqrt(num); i=i+2){
+	unsigned long i = 3;
+	while(i * i < num){
+		if ((num%i) == 0){
+			flag = 0;
+			break;
+		}
+		i=i+2;
+	}
+	/*for(unsigned long i = 3; i <= sqrt(num); i=i+2){
 		
 		if ((num%i) == 0){
 			flag = 0;
 			break;
 		}
 	
-	}
+	}*/
 	
 	return flag;
 }
