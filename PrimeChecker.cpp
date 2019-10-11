@@ -36,7 +36,7 @@ unsigned long PRIMECHECKER::PrimeChecker(unsigned long a, unsigned long b){
 	}
 		
 
-	for(long count = a; count <= b; count = count + 2){
+	for(unsigned long count = a; count <= b; count = count + 2){
 			
 		if (prime_list.empty()){
 			
@@ -74,9 +74,6 @@ unsigned long PRIMECHECKER::PrimeChecker(unsigned long a, unsigned long b){
 	}
 
 	return prime_list.size(); 
-		
-	
-	
 
 }
 
