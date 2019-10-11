@@ -10,7 +10,7 @@
 
 class PRIMECHECKER {
 	private:
-	int check_prime(unsigned long);
+	
 	public:
 	unsigned long PrimeChecker(unsigned long, unsigned long);
 };
