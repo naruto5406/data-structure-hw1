@@ -6,11 +6,11 @@
 #ifndef _PrimeChecker_
 #define _PrimeChecker_
 
-int check_prime(int num);
+
 
 class PRIMECHECKER {
 	private:
-
+	int check_prime(unsigned long);
 	public:
 	unsigned long PrimeChecker(unsigned long, unsigned long);
 };
