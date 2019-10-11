@@ -8,6 +8,7 @@
 #include <vector>
 using namespace std;
 using std::vector;
+int check_prime(int num);
 
 unsigned long PRIMECHECKER::PrimeChecker(unsigned long a, unsigned long b){
 		
